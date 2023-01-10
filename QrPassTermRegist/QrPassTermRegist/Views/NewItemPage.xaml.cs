@@ -1,0 +1,21 @@
+﻿using QrPassTermRegist.Models;
+using QrPassTermRegist.ViewModels;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace QrPassTermRegist.Views
+{
+    public partial class NewItemPage : ContentPage
+    {
+        public Item Item { get; set; }
+
+        public NewItemPage()
+        {
+            InitializeComponent();
+            BindingContext = new NewItemViewModel();
+        }
+    }
+}
