@@ -12,7 +12,7 @@ namespace QrPassTermRegist.Helpers
                 public static string Scheme = "http";
                 public static string Port = "8000";*/
 
-        public static string RestUrl = $"{Sheme}://{HostUrl}:{Port}/{{0}}";
+        //public static string RestUrl = $"{Sheme}://{HostUrl}:{Port}/{{0}}";
         #endregion
 
         #region Login and Register
