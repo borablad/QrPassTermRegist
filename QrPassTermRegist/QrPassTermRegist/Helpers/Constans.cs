@@ -1,9 +1,9 @@
-﻿using QrPassMobail.ViewModels;
+﻿using QrPassTermRegist.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QrPassMobail.Helpers
+namespace QrPassTermRegist.Helpers
 {
     public partial class Constans:BaseViewModel
     {
